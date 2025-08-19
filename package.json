@@ -23,9 +23,14 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
     "browserslist": "^4.24.4",
+    "fontawesome": "^5.6.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.22.0"
   },
-  "browserslist": ["last 2 versions"]
+  "browserslist": [
+    "last 2 versions"
+  ]
 }

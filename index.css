@@ -1,3 +1,287 @@
 .heading{
     color: red;
 }
+
+body{
+    margin: 0px;
+}
+
+.header-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-container{
+    width:30%;
+}
+
+.navigation-container{
+    width:70%;
+}
+
+.navigation-container>.nav-menu{
+    display: flex;
+    float: inline-end;
+}
+
+.navigation-container>.nav-menu>li{
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+.nav-menu{
+    font-size: 24px;
+    padding: 0 100px;
+}
+
+.body-container{
+    margin-top: 2%;
+}
+
+.resto-container{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.search-container{
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.resto-card{
+    width:350px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.actual-card{
+    width:100%;
+}
+
+.food-img{
+    width:100%;
+    height:100%;
+}
+
+.search-wrap{
+    width:100%;
+    display: flex;
+    height: 48px;
+    align-items: center;
+    margin: 0 auto 8px;
+    border :1px solid rgba(40, 44, 63, .3);
+    border-radius: 3px;
+    width:860px;
+}
+
+input.search{
+    flex: 1;
+    min-width: 0;
+    padding-right: 12px;
+    border: none;
+    font-size: 1.15rem;
+    font-weight: 400;
+    padding-left: 16px;
+    outline: none;
+}
+
+span.fa{
+    font-size: 18px!important;
+    float: right;
+}
+
+h3{
+    margin-block: auto;
+}
+
+.food-image{
+    height: 60%;
+}
+
+.actual-card{
+    border: 1px solid #0000002b;
+    height: 100%;
+}
+
+.checked{
+    color: gold;
+}
+
+.name-price{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+
+.card{
+    width:100%;
+    height: 100%;
+}
+
+.rest-location{
+    margin-bottom: 12px;
+}
+
+p{
+    margin-block: auto;
+}
+
+p.name{
+    margin-left: 3px;
+}
+
+.resto-details{
+    height: 40%;
+}
+
+
+
+.simmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.simmer-parent{
+    width:350px;
+    height:100%;
+    margin-left: 15px;
+    border: 1px solid #0000002b;
+}
+
+.simmer-cards{
+    width: 100%;
+    background-color: lightgray;
+    height: 70%;
+    margin-bottom: 20px;
+    
+}
+
+.simmer-name{
+    width: 50%;
+    background-color: lightgray;
+    height: 5%;
+    
+}
+
+.simmer_location{
+    width: 50%;
+    height: 5%;
+    background-color:  lightgray;
+}
+
+button.fa{
+    border: none;
+    background: none;
+}
+
+.error{
+    background-image: url(/src/utils/images/kitty.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    display: inline-block;
+}
+
+.error-content{
+    margin-top: auto;
+    height: 50em;
+    display: inline-block;
+    width: 100%;
+    margin-top: 18em;
+}
+
+.error-content p{
+    font-size: xx-large;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12em;
+}
+
+.menu{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mergerdiv{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.rest-card{
+    width:100%;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 16px 0px;
+}
+
+.mergerdiv h3{
+    margin-left: 2em;
+}
+
+.rest-card .cuisines{
+    width: 100%;
+    margin-left: 2em;
+    margin-top: 1em;
+    color: rgb(255, 82, 0);
+    font-weight: bold;
+}
+
+.rest-card .outlet{
+    width: 100%;
+    margin-left: 2em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.outer-card{
+    background: linear-gradient(rgb(255, 255, 255) -6.71%, rgb(235, 235, 242) 56.19%, rgb(223, 223, 231) 106.56%);
+    padding: 0px 16px 16px;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+}
+
+.bordertop{
+    border-top:16px solid rgba(2, 6, 12, 0.05);
+    margin-top: 2em;
+}
+
+.itemnames{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.itemnames li{
+    margin-top: 1em;
+}
+
+.resto-container a{
+    color: unset;
+    cursor: unset;
+    text-decoration: unset;
+}

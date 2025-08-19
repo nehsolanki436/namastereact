@@ -165,3 +165,27 @@ console.log(user.address?.city); // NYC
 ✅ Enables experimental JavaScript features
 
 
+* Header
+*  -Logo
+*  -Nav Items
+* Body
+*  -Search
+*  -ResturantContainer
+*   -Menu Card
+*  Footer
+*  -Copyright
+*  - Links
+* In order to capture typing from brower we can use event object
+
+
+**React Apps are called Single Page Applications
+=> Because In traditional web development we used to have links and click of it loaded the entire page
+=> Whereas in case of react we can only refersh components instead of entire page
+=> This is done when website has constant header compnent and only the body component changes as per thr link clicked.
+=> Then in this case react-router-dom library comes gives us Link component to related link to specific router path.
+=> And this router path specifies the target component to be loaded.
+
+There are two types of routing server wide routing and Client side routing.
+=> In traditional web application when a link is clicked the network call is made to call the particular html page and then it is loaded to the screen.
+=> But in react it it Client Side routing because no network calls are made because on initial loading of the website all the React components are already loaded.
+So no, network calls are made.
